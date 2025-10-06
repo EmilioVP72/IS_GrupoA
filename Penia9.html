@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Essential for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members</title>
+    <!-- Load Tailwind CSS from CDN for styling via classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    // Set default font to Inter
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-900 text-gray-100 font-sans min-h-screen p-4 md:p-10">
+    <div class="max-w-4xl mx-auto">
+
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-extrabold text-indigo-400 mb-2">Team Members</h1>
+            <p class="text-xl text-gray-400">Project Lever: Core Development Roster</p>
+        </header>
+
+        <section id="Penia9" class="bg-indigo-700/50 p-6 md:p-8 rounded-2xl shadow-2xl shadow-indigo-500/30 border border-indigo-500">
+            <h2 class="text-4xl font-extrabold mb-4 text-white border-b border-indigo-300 pb-2">PeniA9 Team</h2>
+
+            <div class="bg-gray-800 p-6 rounded-xl shadow-inner shadow-gray-900">
+                <p class="text-lg font-medium text-gray-300 mb-4">Contributors from this branch:</p>
+                <ol class="space-y-3 list-decimal list-inside text-xl">
+                    <li class="p-2 bg-gray-700 rounded-lg hover:bg-gray-600 transition duration-150 cursor-pointer">
+                        <span class="font-bold text-indigo-300">1.</span> Luis Angel Quijano Guerrero
+                    </li>
+                    <li class="p-2 bg-gray-700 rounded-lg hover:bg-gray-600 transition duration-150 cursor-pointer">
+                        <span class="font-bold text-indigo-300">2.</span> Ulises Andrade Gonzalez
+                    </li>
+                    <li class="p-2 bg-gray-700 rounded-lg hover:bg-gray-600 transition duration-150 cursor-pointer">
+                        <span class="font-bold text-indigo-300">3.</span> Emilio Sebastian Chavez Vega
+                    </li>
+                </ol>
+            </div>
+
+            <div class="mt-6 text-center text-gray-300 text-sm">
+                <p>— Successfully merged contribution. —</p>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
